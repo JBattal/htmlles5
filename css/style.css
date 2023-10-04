@@ -1,0 +1,40 @@
+.first {
+    color: red;
+}
+
+.second {
+    color: white;
+    background-color: grey;
+}
+
+.third {
+    color: blue;
+}
+
+#first {
+    color: green;
+}
+
+
+
+
+
+:root {
+    --heading-color: maroon;
+    --background-color: lightgrey;
+}
+
+body {
+    font-family: verdana;
+    background-color: var(--background-color);
+}
+
+h1, h2 {
+    color: var(--heading-color);
+}
+
+article {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}
